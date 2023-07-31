@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background: #36454f;
+  color: white;
+  position: sticky;
+  z-index: 100;
+  width: 100vw;
+
+  .compLogo {
+    cursor: pointer;
+  }
+
+  .navMenu {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    list-style-type: none;
+    cursor: pointer;
+
+    .navMenuItems {
+      color: white;
+      text-decoration: none;
+      list-style-type: none;
+    }
+
+    .navMenuItems:hover {
+      color: cadetblue;
+      transition: 0.03s ease-in-out;
+      transform: scale(1.2);
+      padding-bottom: 5px;
+      border-bottom: 1px solid aqua;
+    }
+  }
+}
