@@ -1,4 +1,3 @@
-// Header.js
 import { Link } from "react-router-dom";
 import styles from "./header.module.scss";
 import companyLogo from "../../assets/company-logo.svg";
